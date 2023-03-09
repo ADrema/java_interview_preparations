@@ -15,4 +15,14 @@ public class TestData {
 
         return basicCollection;
     }
+
+    public static List<Recipe> returnRecipesList() {
+        List<Recipe> basicCollection = new ArrayList<>();
+        basicCollection.add(new Recipe("Salmon pasta", 1200));
+        basicCollection.add(new Recipe("Spaghetti Carbonara", 2000));
+        basicCollection.add(new Recipe("Shakshuka", 1200));
+        basicCollection.add(new Recipe("Khachapuri", 1700));
+        return basicCollection;
+    }
+
 }
