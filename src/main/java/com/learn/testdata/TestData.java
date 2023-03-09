@@ -10,6 +10,9 @@ public class TestData {
         basicCollection.add("FirstValue");
         basicCollection.add("SecondValue");
         basicCollection.add("ThirdValue");
+        basicCollection.add("FourthValue");
+        basicCollection.add("FifthValue");
+
         return basicCollection;
     }
 }
